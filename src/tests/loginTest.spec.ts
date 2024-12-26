@@ -2,6 +2,7 @@ import { expect, test } from "@playwright/test";
 import LoginPage from "../pages/LoginPage";
 // import { logger }from "../utils/LoggerUtils";
 import { decrypt, encrypt } from "../utils/CryptojsUtil";
+import { encryptEnvFile } from "../utils/EncryptEnvFile";
 
 // const authFile = "src/config/auth.json";
 
@@ -11,7 +12,7 @@ import { decrypt, encrypt } from "../utils/CryptojsUtil";
 //   await loginPage.fillUsername_selfheal("demo_selfheal");
 // });
 
-test("simple login test", async ({ page }) => {
+test(" test", async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.navigateToLoginPage();
   await loginPage.fillUsername(decrypt(process.env.userid!));
@@ -21,6 +22,10 @@ test("simple login test", async ({ page }) => {
   // logger.info("Test for login is completed");
   // await page.context().storageState({ path: authFile });
   // logger.info("Auth state is saved");
+});
+
+test("Encrypt and decrypt environment variables", async () => {
+  await encryptEnvFile();
 });
 
 // test.skip("Login with auth file", async ({ browser }) => {
