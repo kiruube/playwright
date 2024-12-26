@@ -35,3 +35,101 @@
 2024-12-24T10:37:25+05:30 [info]: Navigated to login.salesforce.com
 2024-12-24T10:37:25+05:30 [info]: Filled username
 2024-12-24T10:46:08+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T11:46:13+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T11:46:13+05:30 [info]: Filled username
+2024-12-26T11:46:13+05:30 [info]: Filled pasword
+2024-12-26T11:46:14+05:30 [info]: Clicked login button
+2024-12-26T11:46:29+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:46:29+05:30 [error]: Login test failed: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:49:01+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T11:49:01+05:30 [info]: Filled username
+2024-12-26T11:49:01+05:30 [info]: Filled pasword
+2024-12-26T11:49:02+05:30 [info]: Clicked login button
+2024-12-26T11:49:17+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:49:17+05:30 [error]: Login test failed: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:57:36+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T11:57:36+05:30 [info]: Filled username
+2024-12-26T11:57:36+05:30 [info]: Filled pasword
+2024-12-26T11:57:36+05:30 [info]: Clicked login button
+2024-12-26T11:57:51+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:57:51+05:30 [error]: Login test failed: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T11:58:51+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T11:58:51+05:30 [info]: Filled username
+2024-12-26T11:58:51+05:30 [info]: Filled pasword
+2024-12-26T11:58:51+05:30 [info]: Clicked login button
+2024-12-26T11:59:06+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-12-26T12:02:10+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:02:10+05:30 [info]: Filled username
+2024-12-26T12:06:14+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:06:14+05:30 [info]: Filled username
+2024-12-26T12:11:12+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:11:12+05:30 [info]: Filled username
+2024-12-26T12:24:27+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:24:28+05:30 [info]: Filled username
+2024-12-26T12:35:18+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:35:19+05:30 [info]: Filled username
+2024-12-26T12:36:00+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:36:00+05:30 [info]: Filled username
+2024-12-26T12:37:20+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:37:20+05:30 [info]: Filled username
+2024-12-26T12:37:53+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T12:38:21+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T13:32:20+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T13:38:11+05:30 [info]: Navigated to login.salesforce.com
+2024-12-26T13:40:02+05:30 [info]: Navigated to login.salesforce.com
