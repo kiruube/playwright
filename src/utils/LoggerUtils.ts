@@ -17,7 +17,7 @@ const customFormat = winston.format.printf(({ level, message, timestamp }) => {
 // Set the desired timezone
 //const timeZone = "Europe/London"; // For the UK
 // const timeZone = 'America/New_York'; // For the US
-const timeZone = "Asia/Kolkata"; // For India
+const timeZone = "Africa/Kampala";
 
 const logger = winston.createLogger({
   format: winston.format.combine(

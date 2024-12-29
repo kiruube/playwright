@@ -3,6 +3,9 @@ import logger from "../utils/LoggerUtils";
 import ContactPage from "./ContactPage";
 
 export default class HomePage {
+  navigateToContactTab() {
+      throw new Error("Method not implemented.");
+  }
   private readonly serviceTitleLocator = "Service";
   private readonly contactsLinkLocator = "Contacts";
 
@@ -16,25 +19,25 @@ export default class HomePage {
       throw error; // rethrow the error if needed
     }).then(()=>logger.info("Service Title is visible"));
   }
-
-
-  async navigateToContactTab(){
-
-    await expect(this.page.getByRole('link', { name: this.contactsLinkLocator })).toBeVisible();
-    logger.info("Contacts Tab is visible")
-    await this.page.getByRole('link', { name: this.contactsLinkLocator }).click();
-    logger.info("Contacts Tab is clicked")
-    return new ContactPage(this.page);
-    
-  }
-
-  async navigateToCaseTab(){
-
-    await expect(this.page.getByRole('link', { name: this.contactsLinkLocator })).toBeVisible();
-    logger.info("Contacts Tab is visible")
-    await this.page.getByRole('link', { name: this.contactsLinkLocator }).click();
-    logger.info("Contacts Tab is clicked")
-    return new ContactPage(this.page);
-    
-  }
 }
+
+//   async navigateToContactTab(){
+
+//     await expect(this.page.getByRole('link', { name: this.contactsLinkLocator })).toBeVisible();
+//     logger.info("Contacts Tab is visible")
+//     await this.page.getByRole('link', { name: this.contactsLinkLocator }).click();
+//     logger.info("Contacts Tab is clicked")
+//     return new ContactPage(this.page);
+    
+//   }
+
+//   async navigateToCaseTab(){
+
+//     await expect(this.page.getByRole('link', { name: this.contactsLinkLocator })).toBeVisible();
+//     logger.info("Contacts Tab is visible")
+//     await this.page.getByRole('link', { name: this.contactsLinkLocator }).click();
+//     logger.info("Contacts Tab is clicked")
+//     return new ContactPage(this.page);
+    
+//   }
+// }
