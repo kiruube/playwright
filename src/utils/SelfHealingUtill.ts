@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Page, Locator } from "@playwright/test";
 import logger from "../utils/LoggerUtils";
 

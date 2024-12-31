@@ -1,5 +1,6 @@
 // Include CryptoJS library (make sure to include it in your project)
 // You can download it from: https://cryptojs.gitbook.io/docs/
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const CryptoJSUtil = require("crypto-js");
 
 const SALT = process.env.SALT || "defaultSalt";

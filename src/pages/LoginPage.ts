@@ -29,7 +29,7 @@ export default class LoginPage {
   }
 
   async fillUsername_selfheal(username: string) {
-    let usernameInputLocator = await findValidElement(this.page,this.usernameInputSelectors );
+    const usernameInputLocator = await findValidElement(this.page,this.usernameInputSelectors );
     await usernameInputLocator?.fill(username);
     const enteredValue = await usernameInputLocator?.inputValue();
     expect(enteredValue).toBe(username);

@@ -1,6 +1,6 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import LoginPage from "../pages/LoginPage";
-import { decrypt, encrypt } from "../utils/CryptojsUtil";
+import { decrypt } from "../utils/CryptojsUtil";
 import { encryptEnvFile } from "../utils/EncryptEnvFile";
 import logger from '../utils/LoggerUtils';
 

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
 import { decrypt } from "../utils/CryptojsUtil";
 import logger from "../utils/LoggerUtils";
 import cdata from "../testdata/contacts.json";

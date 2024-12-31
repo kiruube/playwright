@@ -1,6 +1,6 @@
 import { Page, expect } from "@playwright/test";
 import logger from "../utils/LoggerUtils";
-import ContactPage from "./ContactPage";
+
 
 export default class HomePage {
   navigateToContactTab() {

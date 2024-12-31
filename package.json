@@ -6,20 +6,27 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "lint": "eslint",
+    "lint-fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
     "@faker-js/faker": "^9.3.0",
     "@playwright/test": "^1.41.1",
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^20.11.0",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
     "moment-timezone": "^0.5.46",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.0",
     "winston": "^3.17.0"
   },
   "dependencies": {

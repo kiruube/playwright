@@ -22,6 +22,7 @@ const srcDir = path.resolve(currentDir, "..");
 
 // Change to 'config' folder
 const testdataDir = path.resolve(srcDir, "testdata");
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const csvFilePath = `${testdataDir}`;
  export  const convertCsvFileToJsonFile = (csvFileName, jsonFileName, delimiter = ',') => {
     try {
